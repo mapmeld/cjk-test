@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>body { font-family: sans-serif; } .red { color: #00f; }</style>
+  </head>
+  <body>
+    <h3>Context</h3>
+    <p>The Unicode Consortium minimized
+    the number of codepoints given to CJK-characters (CJK = Chinese-Japanese-Korean, Chinese characters, kanji, etc).
+    The following labels use the exact same Unicode codepoints but highlight
+    subtle differences in how different languages render the character. Use these
+    two map labels to check which language is being used (
+    <code>&lt;h1 lang="zh-HK"&gt;...&lt;/h1&gt;</code>
+    ):</p>
+
+    <h1>Taipei</h1>
+    <h1 lang="zh-HK">Traditional 臺<span class="red">北</span></h1>
+    <h1 lang="zh-CN">Simplified 臺<span class="red">北</span></h1>
+
+    <hr/>
+
+    <h1>Kanazawa</h1>
+    <h1 lang="zh-HK">Traditional <span class="red">金</span>沢市</h1>
+    <h1 lang="zh-CN">Simplified <span class="red">金</span>沢市</h1>
+    <h1 lang="ja-JP">Japanese <span class="red">金</span>沢市</h1>
+  </body>
+</html>
